@@ -1,4 +1,10 @@
-def about():
-    print('Fish are gill-bearing aquatic craniate animals that lack limbs with digits. They form a sister group to the tunicates, together forming the olfactores. Included in this definition are the living hagfish, lampreys, and cartilaginous and bony fish as well as various extinct related groups.')
-def food():
-    print("In the wild they feast on live fish, insects, larvae and crustaceans. All fish require some amount of protein; however a carnivore's diet should be made up of 45% to 70% protein. In addition to proteins, these fish also need some fats to insulate the body, and small amounts of carbohydrates to provide energy")
+import random
+
+def examples(count = 1):
+    lst = "Angelfish (large),Angelfish (dwarf),Anthias,Bass,Groupers,Basslets,Assessors,Batfish,Blennies,Engineer gobies,Boxfish,Blowfish,Butterflyfish,Cardinalfish,Chromis,Clownfish,Damselfish,Dartfish,Dragonets,Eels,Filefish,Foxface,Flatfish,Frogfish,Goatfish,Gobies,Clingfishes,Grunts,Hamlet,Hawkfish,Hogfish,Idols,Jacks,Jawfish,Lionfish,Parrotfish,Pipefish,Pseudochromis,Rabbitfish,Rays,Scorpionfish,Seahorses,Squirrelfish,Sharks,Snappers,Tangs,Tilefish,Triggerfish,Wrasse"
+    lst = lst.split(',')
+    random.shuffle(lst)
+    print(lst[:count])
+    
+def characteristics():
+    print('Copy this link and paste it as URL: https://en.wikipedia.org/wiki/Fish')
