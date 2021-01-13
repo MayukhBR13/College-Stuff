@@ -1,0 +1,4 @@
+def about():
+    print('Mammals (from Latin mamma "breast") are a group of vertebrate animals constituting the class Mammalia (/məˈmeɪliə/), and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones.')
+def food():
+    print("Some groups of mammals almost exclusively eat meat -- take lions and tigers and other big cats. Other mammals such as deer, cows and antelope are predominantly plant-eaters, living on a diet of leaves, shoots and bark. But particularly for omnivores, the situation wasn't always that way, finds a new study")
