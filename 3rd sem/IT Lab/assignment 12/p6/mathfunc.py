@@ -11,7 +11,7 @@ def fun1(x,y):
     else:
         return 1
 def fun2(n,r):
-    if(n>0 and r>0):
+    if(n>1 and r>1):
         return fun2(n-1,r)+fun2(n-1,r-1)
     else:
         return 1
