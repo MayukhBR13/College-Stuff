@@ -2,8 +2,6 @@
 details of a person. Throw an exception if an invalid date is entered.'''
 
 import datetime as dt
-import calendar as cd
-
 nm=input('Enter Your Name: ')
 ct=input('Enter Your city name: ')
 try:
