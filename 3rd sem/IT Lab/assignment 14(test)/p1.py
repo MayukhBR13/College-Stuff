@@ -16,4 +16,4 @@ while(True):
 c=len(iList)
 t=sum(iList)
 av=t/c
-print(f'Total: {t}\nCount:{c}\nAverage: {av}')
+print(f'Total: {t}\nCount:{c}\nAverage: {round(av,2)}')
