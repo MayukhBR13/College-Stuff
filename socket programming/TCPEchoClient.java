@@ -14,20 +14,7 @@ public class TCPEchoClient {
         InputStream in=sock.getInputStream();
         OutputStream out=sock.getOutputStream();
         out.write(word);
-/*
- *          abcdef
- *          0<6
- *          ab 0 6-0
- *             2
- *          cd 2 6-2=4
- *             2
- * 
- * 
- * 
- *          abcdef
- *          6<6
- * -1
- */
+
 
         int totalByteRead=0;
         int bytesread;
